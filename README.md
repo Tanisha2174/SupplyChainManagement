@@ -1,4 +1,3 @@
-````markdown
 # SupplyChainManagement
 
 ![Vite](https://img.shields.io/badge/built%20with-Vite-brightgreen)
@@ -44,7 +43,7 @@ npm install
 
 # Start the development server
 npm run dev
-````
+```
 
 Once running, open your browser and visit `http://localhost:5173` to explore the application.
 
@@ -65,7 +64,8 @@ SupplyChainManagement/
 
 ## Scripts
 
-* `npm run dev` – Launches the Vite development server
-* `npm run build` – Bundles the app for production
-* `npm run preview` – Serves the production build locally
-* `npm run lint` – Runs ESLint to analyze code quality
+- `npm run dev` – Launches the Vite development server
+- `npm run build` – Bundles the app for production
+- `npm run preview` – Serves the production build locally
+- `npm run lint` – Runs ESLint to analyze code quality
+
