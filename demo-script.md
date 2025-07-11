@@ -1,126 +1,110 @@
 # 2-Minute Demo Video Script
 ## Walmart Agentic AI Supply Chain Management System
+### **Focus: Inventory Dashboard Metrics Explanation**
 
-### **[0:00 - 0:15] Opening & Introduction (15 seconds)**
+---
+
+### **[0:00 - 0:15] Opening & System Introduction (15 seconds)**
 
 **[Screen: Landing Page]**
 
-**Narrator:** "Welcome to the future of retail operations. This is our Agentic AI Supply Chain Management System - powered by OpenAI GPT-4o Mini and built specifically for Walmart's complex supply chain needs."
-
-**[Action: Highlight the prominent branding badge]**
-
-**Narrator:** "Developed for the Walmart Sparkathon 2025, this system uses autonomous AI agents to revolutionize inventory management and logistics optimization."
-
----
-
-### **[0:15 - 0:30] System Overview (15 seconds)**
-
-**[Screen: Landing page stats section]**
-
-**Narrator:** "Our system monitors over 4,700 stores, processes 265 million daily transactions, and maintains 99.2% inventory accuracy while reducing costs by 18%."
-
-**[Action: Hover over the two main navigation cards]**
-
-**Narrator:** "The platform consists of two core modules: AI-powered inventory management and intelligent route optimization."
-
----
-
-### **[0:30 - 1:15] Inventory Management Demo (45 seconds)**
+**Narrator:** "Welcome to our Agentic AI Supply Chain Management System - powered by OpenAI GPT-4o Mini and built for Walmart Sparkathon 2025. This autonomous AI system revolutionizes inventory management through intelligent agents that work collaboratively to optimize retail operations."
 
 **[Action: Click on "Access Inventory Dashboard"]**
 
+---
+
+### **[0:15 - 1:45] Detailed Inventory Dashboard Metrics (90 seconds)**
+
 **[Screen: Inventory Dashboard loads]**
 
-**Narrator:** "Let's explore the inventory management system. Here we see real-time data from our Dallas store network."
+**Narrator:** "Let's explore our comprehensive inventory management system. At the top, we see four critical metrics computed in real-time from our backend data."
 
-**[Action: Show the key metrics at top]**
+#### **Key Metrics Section (25 seconds)**
+**[Action: Highlight each metric card]**
 
-**Narrator:** "The dashboard displays total inventory levels, active AI agents, and rebalancing actions needed - all computed dynamically from our backend data."
+**Narrator:** "First, **Total Inventory** shows 6,041 units across all selected stores with a 2.5% improvement versus target. Our **Active Agents** - 6 autonomous AI agents operating at 98.2% efficiency, continuously monitoring and optimizing inventory levels."
 
-**[Action: Change store selection dropdown]**
+**[Action: Point to Rebalancing Actions and Efficiency Score]**
 
-**Narrator:** "We can view individual store performance or aggregate data across all locations. Notice how metrics update automatically based on the selected store."
+**Narrator:** "**Rebalancing Actions** indicates 5 products currently need stock adjustments based on AI predictions. Our **Efficiency Score** of 87% reflects how well our inventory aligns with predicted demand patterns."
 
-**[Action: Scroll to AI Demand Forecast section]**
+#### **AI Demand Forecast Section (35 seconds)**
+**[Action: Scroll to and highlight the demand forecast chart]**
 
-**Narrator:** "Our AI agents predict demand with up to 95% confidence. The system analyzes patterns for products like milk, bread, and cereals, providing specific recommendations."
+**Narrator:** "The AI Demand Forecast section shows our GPT-4o Mini powered predictions. For Dallas stores over 7 days, we predict 6,041 total demand units. Each product has specific confidence levels - milk at 85% confidence with increasing trend, bread at 90% confidence, also increasing."
 
-**[Action: Point to the recommendation cards]**
+**[Action: Point to the bar chart comparing predicted demand vs current stock]**
 
-**Narrator:** "Each product gets tailored stock adjustments - some need restocking, others require redistribution to prevent waste."
+**Narrator:** "The chart compares predicted demand in purple against current stock in gray. Notice how our AI identifies gaps - milk needs restocking while cereal shows excess inventory."
 
-**[Action: Show real-time alerts panel]**
+#### **Inventory Recommendations Section (30 seconds)**
+**[Action: Highlight the recommendation cards on the right]**
 
-**Narrator:** "The system provides real-time alerts from our autonomous agents, identifying critical situations like inventory shortages or excess stock."
+**Narrator:** "Our AI provides specific recommendations for each product. Milk shows increasing trend with 85% confidence - no adjustment needed as stock aligns with demand. Juice requires +20 units due to predicted surge. Bread needs -10 units to prevent waste, while eggs show -30 units recommended due to declining demand patterns."
 
----
+**[Action: Point to the trend icons and confidence percentages]**
 
-### **[1:15 - 1:45] Route Optimization Demo (30 seconds)**
-
-**[Action: Click back button, then "Access Route Dashboard"]**
-
-**[Screen: Route Dashboard loads]**
-
-**Narrator:** "Now let's see our intelligent route optimization system. Users can select multiple store locations for delivery planning."
-
-**[Action: Select start location and two destinations]**
-
-**Narrator:** "The AI calculates optimal routes considering distance, traffic patterns, and delivery priorities."
-
-**[Action: Click "Generate Optimized Route"]**
-
-**Narrator:** "Within seconds, we get a complete route analysis showing distance, time estimates, fuel savings, and CO2 reduction."
-
-**[Action: Start the simulation]**
-
-**Narrator:** "The live simulation shows real-time truck tracking with driver information and delivery status updates."
+**Narrator:** "Each recommendation includes trend analysis - green arrows for increasing demand, red for decreasing, with confidence percentages guiding decision reliability."
 
 ---
 
-### **[1:45 - 2:00] Closing & Impact (15 seconds)**
+### **[1:45 - 2:00] Impact & Closing (15 seconds)**
 
-**[Action: Show the completed route or return to landing page]**
+**[Action: Scroll to show real-time alerts and agent activity]**
 
-**Narrator:** "This agentic AI system represents the future of supply chain management - where autonomous agents work collaboratively to optimize operations, reduce costs, and improve customer satisfaction."
-
-**[Screen: Landing page with team section visible]**
-
-**Narrator:** "Built by our innovative team for Walmart Sparkathon 2025, powered by OpenAI GPT-4o Mini. Thank you for watching."
+**Narrator:** "Our autonomous agents provide real-time alerts - from critical inventory shortages to optimization opportunities. This agentic AI system represents the future of retail operations, where intelligent agents collaborate to reduce costs, prevent stockouts, and maximize efficiency. Built for Walmart Sparkathon 2025."
 
 ---
 
-## **📋 Demo Tips & Notes**
+## **📋 Detailed Metric Explanations for Demo**
 
-### **Visual Cues to Highlight:**
-- **Smooth transitions** between pages
-- **Real-time data updates** when changing stores
-- **Interactive elements** like dropdowns and buttons
-- **Professional design** and responsive layout
-- **AI agent activity** indicators and alerts
+### **🎯 Key Metrics to Emphasize:**
 
-### **Key Messages to Emphasize:**
-1. **Autonomous AI Agents** working collaboratively
-2. **Real-time optimization** and decision making
-3. **Scalable solution** for large retail operations
-4. **Data-driven insights** with high accuracy
-5. **Cost reduction** and efficiency improvements
+1. **Total Inventory (6,041 units)**
+   - Computed from all selected stores' current stock
+   - Shows +2.5% improvement vs target
+   - Real-time aggregation across product categories
 
-### **Technical Highlights:**
-- **OpenAI GPT-4o Mini** integration
-- **Multi-store data processing**
-- **Dynamic metric calculations**
-- **Interactive visualizations**
-- **Real-time simulation capabilities**
+2. **Active Agents (6 agents at 98.2%)**
+   - Autonomous AI agents monitoring different aspects
+   - High operational efficiency percentage
+   - Continuous 24/7 monitoring capability
 
-### **Recording Suggestions:**
-- **Smooth cursor movements** - avoid jerky navigation
-- **Pause briefly** on key metrics to let viewers read
-- **Use zoom/highlight effects** for important data points
-- **Keep consistent pacing** - not too fast or slow
-- **End with impact statement** about the system's value
+3. **Rebalancing Actions (5 products)**
+   - Products requiring stock adjustments
+   - Based on AI demand predictions
+   - Proactive inventory optimization
 
-### **Audio Quality:**
-- **Clear narration** with professional tone
-- **Consistent volume** throughout
-- **Minimal background noise**
-- **Appropriate pacing** for technical content
+4. **Efficiency Score (87%)**
+   - Calculated from confidence levels and optimal stock alignment
+   - Measures how well inventory matches predicted demand
+   - Includes trend analysis (+1.2% improvement)
+
+### **🤖 AI Forecast Details:**
+- **Total Predicted Demand**: 6,041 units over 7 days
+- **Confidence Levels**: Range from 82% to 95% per product
+- **Trend Analysis**: Increasing, decreasing, or stable patterns
+- **Product-Specific Insights**: Individual recommendations with reasoning
+
+### **📊 Visual Elements to Highlight:**
+- **Dynamic bar charts** showing predicted vs actual stock
+- **Color-coded trend indicators** (green up, red down, gray stable)
+- **Confidence percentages** for each prediction
+- **Real-time data updates** and agent activity
+- **Recommendation cards** with specific adjustment numbers
+
+### **🎬 Recording Tips:**
+- **Smooth cursor movements** highlighting each metric
+- **Pause briefly** on key numbers (2-3 seconds each)
+- **Clear transitions** between metric explanations
+- **Professional pacing** - not too fast for technical content
+- **End with impact statement** about autonomous agent collaboration
+
+### **⏱️ Timing Breakdown:**
+- **Opening**: 15 seconds
+- **Key Metrics**: 25 seconds  
+- **AI Forecast**: 35 seconds
+- **Recommendations**: 30 seconds
+- **Closing**: 15 seconds
+- **Total**: 120 seconds (2 minutes exactly)
