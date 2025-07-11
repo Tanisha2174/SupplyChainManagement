@@ -48,7 +48,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Walmart AI Operations</h1>
-                <p className="text-sm text-gray-600">Intelligent Supply Chain Management</p>
+                <p className="text-sm text-gray-600">Agentic Supply Chain Management System</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -63,13 +63,23 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
       <div className="max-w-8xl mx-20 px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Next-Generation
+            Agentic AI-Powered
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"> AI Operations</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Revolutionizing retail operations through intelligent inventory management, predictive analytics, 
-            and autonomous logistics optimization across the entire supply chain network.
+            Revolutionizing retail operations through autonomous AI agents that intelligently manage inventory, 
+            predict demand patterns, and optimize logistics across the entire supply chain network.
           </p>
+          <div className="flex items-center justify-center space-x-6 mb-8">
+            <div className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-50 to-blue-50 rounded-full border border-green-200">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              <span className="text-sm font-semibold text-gray-700">Powered by OpenAI GPT-4o Mini</span>
+            </div>
+            <div className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-50 to-purple-50 rounded-full border border-blue-200">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+              <span className="text-sm font-semibold text-gray-700">Built for Walmart</span>
+            </div>
+          </div>
           <div className="flex items-center justify-center space-x-4">
             <div className="flex items-center space-x-2 px-4 py-2 bg-green-100 rounded-full">
               <Activity className="w-5 h-5 text-green-600" />
@@ -77,7 +87,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
             </div>
             <div className="flex items-center space-x-2 px-4 py-2 bg-blue-100 rounded-full">
               <Users className="w-5 h-5 text-blue-600" />
-              <span className="text-sm font-medium text-blue-700">Multi-Store Network</span>
+              <span className="text-sm font-medium text-blue-700">Multi-Agent Network</span>
             </div>
           </div>
         </div>
@@ -181,9 +191,9 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
         {/* Features Grid */}
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Powered by Advanced AI</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Powered by Autonomous AI Agents</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our intelligent systems leverage cutting-edge machine learning to optimize every aspect of retail operations
+              Our autonomous AI agents work collaboratively using GPT-4o Mini to optimize every aspect of retail operations through intelligent decision-making and real-time adaptation
             </p>
           </div>
           
