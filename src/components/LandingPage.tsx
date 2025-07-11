@@ -62,6 +62,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
       {/* Hero Section */}
       <div className="max-w-8xl mx-20 px-8 py-16">
         <div className="text-center mb-16">
+          {/* Prominent Branding */}
+          <div className="mb-8">
+            <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl shadow-lg text-lg font-bold">
+              Powered by OpenAI GPT-4o Mini | Built for Walmart
+            </div>
+          </div>
+          
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             Agentic AI-Powered
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"> AI Operations</span>
@@ -210,7 +217,71 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
           </div>
         </div>
 
-     
+        {/* Team Section */}
+        <div className="bg-white rounded-2xl shadow-lg p-12 border border-gray-100">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Development Team</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Meet the talented team behind this innovative agentic AI supply chain management system
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Team Member 1 */}
+            <div className="text-center group">
+              <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">
+                TM
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Team Member 1</h3>
+              <p className="text-sm text-gray-600 mb-2">AI Systems Architect</p>
+              <p className="text-xs text-gray-500">Inventory Management & Forecasting</p>
+            </div>
+
+            {/* Team Member 2 */}
+            <div className="text-center group">
+              <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">
+                TM
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Team Member 2</h3>
+              <p className="text-sm text-gray-600 mb-2">Logistics Optimization Lead</p>
+              <p className="text-xs text-gray-500">Route Planning & Fleet Management</p>
+            </div>
+
+            {/* Team Member 3 */}
+            <div className="text-center group">
+              <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">
+                TM
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Team Member 3</h3>
+              <p className="text-sm text-gray-600 mb-2">Data Science Engineer</p>
+              <p className="text-xs text-gray-500">Machine Learning & Analytics</p>
+            </div>
+
+            {/* Team Member 4 */}
+            <div className="text-center group">
+              <div className="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">
+                TM
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Team Member 4</h3>
+              <p className="text-sm text-gray-600 mb-2">Full-Stack Developer</p>
+              <p className="text-xs text-gray-500">Frontend & Backend Development</p>
+            </div>
+          </div>
+
+          {/* Project Info */}
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <div className="text-center">
+              <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-50 to-purple-50 rounded-full border border-blue-200 mb-4">
+                <span className="text-sm font-semibold text-gray-700">Walmart Sparkathon 2025 Project</span>
+              </div>
+              <p className="text-sm text-gray-600 max-w-3xl mx-auto">
+                This agentic AI supply chain management system was developed as part of the Walmart Sparkathon 2025, 
+                leveraging OpenAI's GPT-4o Mini to create autonomous agents that revolutionize retail operations through 
+                intelligent inventory management and logistics optimization.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
